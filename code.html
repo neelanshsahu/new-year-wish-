@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy New Year 2026 🎉</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="magic-intro">
+  <div class="sparkle">✨</div>
+  <h1>Welcome 2026 💖</h1>
+</div>
+
+<div id="app">
+
+<section class="screen active" id="screen-1">
+  <h1>🎉 Happy New Year 2026!</h1>
+  <h2>Wishing you joy, success & happiness ✨</h2>
+  <button onclick="nextScreen()">Begin Celebration 🎊</button>
+</section>
+
+<section class="screen" id="screen-2">
+  <h2>A New Year Letter 💌</h2>
+
+  <div class="envelope-box" onclick="openEnvelope()">
+    <div class="envelope">
+      <div class="letter-paper">
+        <p>Dear Friend ❤️</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="screen" id="screen-3">
+  <h2>Dear Friend 💖</h2>
+  <p>
+    As the year turns, may your days be filled with love, laughter and new adventures.
+  </p>
+  <button onclick="nextScreen()">Continue ✨</button>
+</section>
+
+
+
+<section class="screen" id="screen-4">
+  <h2>🎁 New Year Wishes</h2>
+  <div class="cards">
+
+    <div class="wish-card" onclick="flipWish(this)">
+      <div class="wish-inner">
+        <div class="wish-front">
+          <img src="image 1.jpeg">
+        </div>
+        <div class="wish-back">✨ May your year shine bright!</div>
+      </div>
+    </div>
+
+    <div class="wish-card" onclick="flipWish(this)">
+      <div class="wish-inner">
+        <div class="wish-front">
+          <img src="heart.jpeg">
+        </div>
+        <div class="wish-back">❤️ Love, peace & happiness</div>
+      </div>
+    </div>
+
+    <div class="wish-card" onclick="flipWish(this)">
+      <div class="wish-inner">
+        <div class="wish-front">
+          <img src="dream.jpeg">
+        </div>
+        <div class="wish-back">🚀 Dream big & achieve more</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="screen" id="screen-5">
+  <h2>🎊 All Wishes Unlocked!</h2>
+  <button onclick="nextScreen()">Final Message 💌</button>
+</section>
+
+<section class="screen" id="screen-6">
+  <h2>🌟 Happy New Year 2026 🌟</h2>
+  <p>May this year bring endless opportunities and happiness.</p>
+  <img src="mahadev.jpeg" alt="mahadev"
+    width="200" 
+  height="200"
+  style="display:block; margin:20px auto;">
+  <button onclick="restart()">Restart 🔄</button>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
